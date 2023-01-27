@@ -1,4 +1,3 @@
-import { Category } from '@mui/icons-material'
 import { Stack } from '@mui/material'
 import React from 'react'
 import { categories } from '../helpers/iconList'

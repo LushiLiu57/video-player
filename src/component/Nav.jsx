@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Stack } from '@mui/material'
-import {logo} from '../helpers/iconList'
 
 import { Paper, IconButton } from '@mui/material'
 import { Search } from '@mui/icons-material'
