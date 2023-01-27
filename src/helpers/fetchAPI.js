@@ -1,7 +1,9 @@
 import axios from 'axios'
 
+export const O_URL = 'https://youtube-v31.p.rapidapi.com/search'
+
 const options = {
-    url: 'https://youtube-v31.p.rapidapi.com/search',
+    url: O_URL,
     params: {
       maxResults: '50'
     },
@@ -12,7 +14,7 @@ const options = {
   };
 
 export const fetchAPI = async (u) => {
-    const {data} = await axios.get(`${options.url}/${u}`, options)
+    const {data} = await axios.get(`${O_URL}/${u}`, options)
     return data
 }
   

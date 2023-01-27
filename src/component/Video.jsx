@@ -1,9 +1,11 @@
 import React from 'react'
 
-function Video() {
+const Video = ({video}) => {
+    console.log(video)
+    
   return (
     <div>
-      OHOH
+      OHOHH
     </div>
   )
 }
