@@ -19,9 +19,6 @@ function Feed() {
       {/* Side */}
       <Box sx={{height:{md:'92vh', sx:'auto'},borderRight: '2px solid #022', px:{md:2,sx:0}}}>
         <SideBar currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}/>
-        <Typography className='copyright' variant='body2' sx={{ mt:1.5}}>
-          Copyright 2023
-        </Typography>
       </Box>
 
       {/* Main */}
